@@ -1,0 +1,130 @@
+{
+  "gym": {
+    "id": "rbn",
+    "name": "Gimnasio RBN",
+    "tagline": "Entrena sin excusas",
+    "location": "Sala principal"
+  },
+  "users": [
+    {
+      "id": "u1",
+      "name": "María López",
+      "avatar": null,
+      "plan": "Premium",
+      "memberSince": "2024-03-12"
+    },
+    {
+      "id": "u2",
+      "name": "Carlos Ruiz",
+      "avatar": null,
+      "plan": "Básico",
+      "memberSince": "2025-01-08"
+    },
+    {
+      "id": "u3",
+      "name": "Ana Torres",
+      "avatar": null,
+      "plan": "Premium",
+      "memberSince": "2023-11-20"
+    },
+    {
+      "id": "u4",
+      "name": "Diego Fernández",
+      "avatar": null,
+      "plan": "Elite",
+      "memberSince": "2022-06-01"
+    },
+    {
+      "id": "u5",
+      "name": "Lucía Martín",
+      "avatar": null,
+      "plan": "Premium",
+      "memberSince": "2024-09-15"
+    },
+    {
+      "id": "u6",
+      "name": "Javier Soto",
+      "avatar": null,
+      "plan": "Básico",
+      "memberSince": "2025-06-02"
+    },
+    {
+      "id": "u7",
+      "name": "Elena Vargas",
+      "avatar": null,
+      "plan": "Elite",
+      "memberSince": "2021-04-18"
+    },
+    {
+      "id": "u8",
+      "name": "Pablo Méndez",
+      "avatar": null,
+      "plan": "Premium",
+      "memberSince": "2024-12-01"
+    }
+  ],
+  "checkins": [
+    {
+      "id": "c1",
+      "userId": "u1",
+      "at": "2026-09-03T16:52:00.000Z",
+      "active": true
+    },
+    {
+      "id": "c2",
+      "userId": "u4",
+      "at": "2026-09-03T16:45:00.000Z",
+      "active": true
+    },
+    {
+      "id": "c3",
+      "userId": "u7",
+      "at": "2026-09-03T16:30:00.000Z",
+      "active": true
+    },
+    {
+      "id": "c4",
+      "userId": "u3",
+      "at": "2026-09-03T16:10:00.000Z",
+      "active": true
+    },
+    {
+      "id": "c5",
+      "userId": "u5",
+      "at": "2026-09-03T15:55:00.000Z",
+      "active": true
+    },
+    {
+      "id": "c6",
+      "userId": "u2",
+      "at": "2026-09-03T15:20:00.000Z",
+      "active": false
+    }
+  ],
+  "classes": [
+    {
+      "id": "cl1",
+      "name": "HIIT Intensivo",
+      "coach": "Sofía R.",
+      "startsAt": "17:00",
+      "endsAt": "17:45",
+      "room": "Sala 1"
+    },
+    {
+      "id": "cl2",
+      "name": "Fuerza & Core",
+      "coach": "Marco L.",
+      "startsAt": "18:00",
+      "endsAt": "18:50",
+      "room": "Sala 2"
+    },
+    {
+      "id": "cl3",
+      "name": "Spinning",
+      "coach": "Irene G.",
+      "startsAt": "19:15",
+      "endsAt": "20:00",
+      "room": "Ciclo"
+    }
+  ]
+}
